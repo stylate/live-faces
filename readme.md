@@ -5,6 +5,7 @@ Proof-of-concept project on live streams, tinkering with AWS and deep learning.
 ## Dependencies:
     * AWS Kinesis
     * AWS Rekognition
+    * AWS S3
     * Gstreamer
     * AWS Producer SDK (for C++)
     * Node.js
