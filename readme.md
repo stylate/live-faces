@@ -1,5 +1,7 @@
 Proof-of-concept project on live streams, tinkering with AWS and deep learning.
 
+** Consider reading the following [issue](https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp/issues/92) in regards to correctly installing the GStreamer plugin for AWS (kvssink). At this time (8/17/18), the GStreamer plugin in the producer SDK (C++) had segmentation faults when running gst-launch-1.0 and I had to integrate my own installation of GStreamer with kvssink.
+
 ## Dependencies:
     * AWS Kinesis
     * AWS Rekognition
