@@ -22,14 +22,14 @@ Afterwards, the target stream will be broadcasted onto AWS Kinesis.
     * Develop a series of collections for AWS Rekognition.
 
 ## Directions:
-    1. Pipe the target .m3u8 stream to KVS through gstreamer.
-    2. Set the appropriate environment variables `KDS_NAME`, `COLLECTION`, `KVSARN`, `KDSARN`, and `KINESIS_ROLE`.
+1. Pipe the target .m3u8 stream to KVS through gstreamer.
+2. Set the appropriate environment variables `KDS_NAME`, `COLLECTION`, `KVSARN`, `KDSARN`, and `KINESIS_ROLE`.
         - `KDS_NAME` represents the name for the Kinesis data stream.
         - `COLLECTION` represents the collection that will be in use for AWS Rekognition.
         - `KVSARN` represents the ARN for the select Kinesis Video Stream.
         - `KDSARN` represents the ARN for the select Kinesis Data Stream.
         - `KINESIS_ROLE` represents the IAM role that has full access to S3, Kinesis, and Rekognition.
-    3. Run `stream.py`, which will then do image recognition on the stream based on its collection from S3.
-    4. Retrieve the data from Kinesis data streams and log onto Splunk.
+3. Run `stream.py`, which will then do image recognition on the stream based on its collection from S3.
+4. Retrieve the data from Kinesis data streams and log onto Splunk.
 
 
