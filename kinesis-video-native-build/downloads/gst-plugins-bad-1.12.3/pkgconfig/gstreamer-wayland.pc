@@ -1,0 +1,12 @@
+prefix=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/gstreamer-1.0
+
+Name: GStreamer Wayland
+Description: GStreamer Wayland support
+Requires: gstreamer-1.0 gstreamer-video-1.0
+Version: 1.12.3
+Libs: -L${libdir} -lgstwayland-1.0
+Cflags: -I${includedir}
+

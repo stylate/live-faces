@@ -1,0 +1,8 @@
+/Users/alanng/work/cpp/kinesis-video-native-build/downloads/googletest-release-1.8.0/googletest/CMakeFiles/install/local.dir
+/Users/alanng/work/cpp/kinesis-video-native-build/downloads/googletest-release-1.8.0/googletest/CMakeFiles/list_install_components.dir
+/Users/alanng/work/cpp/kinesis-video-native-build/downloads/googletest-release-1.8.0/googletest/CMakeFiles/rebuild_cache.dir
+/Users/alanng/work/cpp/kinesis-video-native-build/downloads/googletest-release-1.8.0/googletest/CMakeFiles/edit_cache.dir
+/Users/alanng/work/cpp/kinesis-video-native-build/downloads/googletest-release-1.8.0/googletest/CMakeFiles/install/strip.dir
+/Users/alanng/work/cpp/kinesis-video-native-build/downloads/googletest-release-1.8.0/googletest/CMakeFiles/install.dir
+/Users/alanng/work/cpp/kinesis-video-native-build/downloads/googletest-release-1.8.0/googletest/CMakeFiles/gtest_main.dir
+/Users/alanng/work/cpp/kinesis-video-native-build/downloads/googletest-release-1.8.0/googletest/CMakeFiles/gtest.dir

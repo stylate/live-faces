@@ -1,0 +1,6 @@
+/Users/alanng/work/cpp/kinesis-video-gstreamer-plugin/CMakeFiles/rebuild_cache.dir
+/Users/alanng/work/cpp/kinesis-video-gstreamer-plugin/CMakeFiles/edit_cache.dir
+/Users/alanng/work/cpp/kinesis-video-gstreamer-plugin/CMakeFiles/gstkvsplugintest.dir
+/Users/alanng/work/cpp/kinesis-video-gstreamer-plugin/CMakeFiles/kvs_producer_plugin_rtsp_demo.dir
+/Users/alanng/work/cpp/kinesis-video-gstreamer-plugin/CMakeFiles/kvs_producer_plugin_demo.dir
+/Users/alanng/work/cpp/kinesis-video-gstreamer-plugin/CMakeFiles/gstkvssink.dir

@@ -1,0 +1,9 @@
+CPPFLAGS="-I$abs_top_builddir/include -I$abs_top_srcdir/include  -D_GNU_SOURCE=1 -D_REENTRANT"
+
+: ${CC='gcc'}
+: ${CXX='g++'}
+: ${CXXFLAGS='-g -O2 -Wall -fdiagnostics-color=auto -Wextra -pedantic -Wstrict-aliasing -Wstrict-overflow -Woverloaded-virtual -Wold-style-cast -Wc++0x-compat -Wc++11-compat -Wundef -Wshadow -Wformat -Wno-variadic-macros -fvisibility=hidden -D_THREAD_SAFE '}
+: ${GREP='/usr/bin/grep'}
+: ${AWK='awk'}
+: ${SED='/usr/bin/sed'}
+: ${ENABLE_THREADS='yes'}

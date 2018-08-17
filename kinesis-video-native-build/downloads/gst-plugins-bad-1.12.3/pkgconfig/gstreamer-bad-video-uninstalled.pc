@@ -1,0 +1,14 @@
+prefix=
+exec_prefix=
+libdir=@videolibdir@
+includedir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs
+girdir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs/gst/video
+typelibdir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs/gst/video
+
+Name: GStreamer bad video library, uninstalled
+Description: Bad video library for GStreamer elements, Not Installed
+Version: 1.12.3
+Requires: gstreamer-1.0 gstreamer-bad-base-1.0
+
+Libs: -L${libdir} -lgstbadvideo-1.0
+Cflags: -I/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs -I/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs

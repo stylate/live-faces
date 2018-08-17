@@ -1,0 +1,7 @@
+_gst_insert_bin_append
+_gst_insert_bin_get_type
+_gst_insert_bin_insert_after
+_gst_insert_bin_insert_before
+_gst_insert_bin_new
+_gst_insert_bin_prepend
+_gst_insert_bin_remove

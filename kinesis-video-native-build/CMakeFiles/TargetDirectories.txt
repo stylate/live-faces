@@ -1,0 +1,7 @@
+/Users/alanng/work/cpp/kinesis-video-native-build/CMakeFiles/rebuild_cache.dir
+/Users/alanng/work/cpp/kinesis-video-native-build/CMakeFiles/edit_cache.dir
+/Users/alanng/work/cpp/kinesis-video-native-build/CMakeFiles/kinesis_video_gstreamer_sample_rtsp_app.dir
+/Users/alanng/work/cpp/kinesis-video-native-build/CMakeFiles/producer.dir
+/Users/alanng/work/cpp/kinesis-video-native-build/CMakeFiles/KinesisVideoProducerJNI.dir
+/Users/alanng/work/cpp/kinesis-video-native-build/CMakeFiles/kinesis_video_gstreamer_sample_app.dir
+/Users/alanng/work/cpp/kinesis-video-native-build/CMakeFiles/start.dir

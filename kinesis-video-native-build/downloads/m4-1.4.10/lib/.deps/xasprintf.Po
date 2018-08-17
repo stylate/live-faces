@@ -1,0 +1,8 @@
+xasprintf.o: xasprintf.c config.h xvasprintf.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdarg.h
+
+config.h:
+
+xvasprintf.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdarg.h:

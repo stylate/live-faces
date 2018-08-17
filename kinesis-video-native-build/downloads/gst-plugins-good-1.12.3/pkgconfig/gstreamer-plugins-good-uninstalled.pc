@@ -1,0 +1,13 @@
+prefix=
+exec_prefix=
+libdir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-good-1.12.3/gst-libs/gst
+includedir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-good-1.12.3/gst-libs
+pluginsdir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-good-1.12.3
+
+Name: GStreamer Good Plugins, Uninstalled
+Description: Streaming media framework, good plugins, uninstalled
+Version: 1.12.3
+Requires: gstreamer-1.0 gstreamer-plugins-base-1.0
+
+Libs: 
+Cflags: 

@@ -1,0 +1,3 @@
+_gst_is_phys_memory
+_gst_phys_memory_allocator_get_type
+_gst_phys_memory_get_phys_addr

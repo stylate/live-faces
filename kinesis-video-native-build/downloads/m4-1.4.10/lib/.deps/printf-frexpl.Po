@@ -1,0 +1,30 @@
+printf-frexpl.o: printf-frexpl.c printf-frexp.c config.h printf-frexpl.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/float.h \
+  math.h /usr/include/math.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h /usr/include/Availability.h \
+  /usr/include/AvailabilityInternal.h fpucw.h
+
+printf-frexp.c:
+
+config.h:
+
+printf-frexpl.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/float.h:
+
+math.h:
+
+/usr/include/math.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+fpucw.h:

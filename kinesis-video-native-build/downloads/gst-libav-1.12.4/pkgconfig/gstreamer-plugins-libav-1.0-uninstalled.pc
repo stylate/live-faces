@@ -1,0 +1,13 @@
+prefix=
+exec_prefix=
+libdir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-libav-1.12.4/gst-libs/gst
+includedir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-libav-1.12.4/gst-libs
+pluginsdir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-libav-1.12.4
+
+Name: GStreamer Libav Plugins, Uninstalled
+Description: Streaming media framework, libav plugins, uninstalled
+Version: 1.12.4
+Requires: gstreamer-1.0 gstreamer-plugins-base-1.0
+
+Libs:
+Cflags:

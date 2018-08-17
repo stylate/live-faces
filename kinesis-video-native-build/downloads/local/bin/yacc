@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/Users/alanng/work/cpp/kinesis-video-native-build/downloads/local/bin/bison' -y "$@"

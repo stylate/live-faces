@@ -1,0 +1,18 @@
+prefix=
+exec_prefix=
+libdir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs/gst/gl/.libs
+includedir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs
+girdir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs/gst/base
+typelibdir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs/gst/base
+gl_platforms=cgl 
+gl_winsys=cocoa 
+gl_apis=gl 
+
+Name: GStreamer OpenGL Plugins Libraries, Uninstalled
+Description: Streaming media framework, OpenGL plugins libraries, uninstalled
+Version: 1.12.3
+Requires: gstreamer-base-1.0 gstreamer-1.0
+
+Libs: -L${libdir} -lgstgl-1.0
+Cflags: -I/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs -I/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs
+

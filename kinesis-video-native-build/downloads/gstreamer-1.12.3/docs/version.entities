@@ -1,0 +1,3 @@
+<!ENTITY GST_API_VERSION "1.0">
+<!ENTITY GST_VERSION "1.12.3">
+<!ENTITY GST_PLUGINS_DIR "/Users/alanng/work/cpp/kinesis-video-native-build/downloads/local/lib/gstreamer-1.0">

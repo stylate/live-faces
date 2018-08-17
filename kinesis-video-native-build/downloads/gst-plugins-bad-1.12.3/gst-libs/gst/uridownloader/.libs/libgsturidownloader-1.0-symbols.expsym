@@ -1,0 +1,13 @@
+_gst_fragment_add_buffer
+_gst_fragment_get_buffer
+_gst_fragment_get_caps
+_gst_fragment_get_type
+_gst_fragment_new
+_gst_fragment_set_caps
+_gst_uri_downloader_cancel
+_gst_uri_downloader_fetch_uri
+_gst_uri_downloader_fetch_uri_with_range
+_gst_uri_downloader_get_type
+_gst_uri_downloader_new
+_gst_uri_downloader_reset
+_gst_uri_downloader_set_parent

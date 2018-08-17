@@ -1,0 +1,16 @@
+# the standard variables don't make sense for an uninstalled copy
+prefix=
+exec_prefix=
+libdir=
+# includedir is builddir because it is used to find gstconfig.h in places
+includedir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-base-1.12.3/gst-libs
+pluginsdir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-base-1.12.3
+
+Name: GStreamer Base Plugins Libraries, Uninstalled
+Description: Streaming media framework, base plugins libraries, uninstalled
+Version: 1.12.3
+Requires: gstreamer-1.0
+Libs: -L@allocatorslibdir@ -L@applibdir@ -L@audiolibdir@ -L@fftlibdir@ -L@pbutilslibdir@ -L@rifflibdir@ -L@rtplibdir@ -L@rtsplibdir@ -L@sdplibdir@ -L@taglibdir@ -L@videolibdir@
+Cflags: -I/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-base-1.12.3/gst-libs -I/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-base-1.12.3/gst-libs
+
+libraries=allocators app audio fft pbutils riff rtp rtsp sdp tag video

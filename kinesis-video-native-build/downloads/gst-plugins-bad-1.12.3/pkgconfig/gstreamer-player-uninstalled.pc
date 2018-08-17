@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=@playerlibdir@
+includedir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs
+
+Name: GStreamer Player, Uninstalled
+Description: GStreamer Player convenience library, uninstalled
+Requires: gstreamer-1.0 gstreamer-video-1.0
+Version: 1.12.3
+Libs: -L${libdir} -lgstplayer-1.0
+Cflags: -I/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs -I/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs
+

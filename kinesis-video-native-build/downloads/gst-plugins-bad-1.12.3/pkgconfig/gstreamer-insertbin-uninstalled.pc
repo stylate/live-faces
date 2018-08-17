@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=@insertbinlibdir@
+includedir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs
+
+Name: GStreamer Insert Bin, Uninstalled
+Description: Bin to automatically and insertally link elements, uninstalled
+Requires: gstreamer-1.0
+Version: 1.12.3
+Libs: -L${libdir} -lgstinsertbin-1.0
+Cflags: -I/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs -I/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs
+

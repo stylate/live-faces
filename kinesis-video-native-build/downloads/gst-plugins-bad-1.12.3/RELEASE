@@ -1,0 +1,129 @@
+
+Release notes for GStreamer Bad Plugins 1.12.3
+
+The GStreamer team is proud to announce the third bugfix release in the stable
+1.12 release series of your favourite cross-platform multimedia framework!
+
+
+This release only contains bugfixes and it is safe to update from 1.12.x. For a
+full list of bugfixes see Bugzilla.
+
+
+See /releases/1.12/ for the full release notes.
+
+
+"That an accusation?"
+
+
+No perfectly groomed moustache or any amount of fine clothing is going to
+cover up the truth - these plugins are Bad with a capital B.
+They look fine on the outside, and might even appear to get the job done, but
+at the end of the day they're a black sheep. Without a golden-haired angel
+to watch over them, they'll probably land in an unmarked grave at the final
+showdown.
+
+
+Don't bug us about their quality - exercise your Free Software rights,
+patch up the offender and send us the patch on the fastest steed you can
+steal from the Confederates. Because you see, in this world, there's two
+kinds of people, my friend: those with loaded guns and those who dig.
+You dig.
+
+
+This module contains a set of plugins that aren't up to par compared to the
+rest.  They might be close to being good quality, but they're missing something
+- be it a good code review, some documentation, a set of tests, a real live
+maintainer, or some actual wide use.  If the blanks are filled in they might be
+upgraded to become part of either gst-plugins-good or gst-plugins-ugly,
+depending on the other factors.
+If the plugins break, you can't complain - instead, you can fix the
+problem and send us a patch, or bribe someone into fixing them for you.
+New contributors can start here for things to work on.
+
+
+Other modules containing plugins are:
+
+
+gst-plugins-base
+contains a basic set of well-supported plugins
+gst-plugins-good
+contains a set of well-supported plugins under our preferred license
+gst-plugins-ugly
+contains a set of well-supported plugins, but might pose problems for
+    distributors
+gst-libav
+contains a set of codecs plugins based on libav (formerly gst-ffmpeg)
+
+
+
+  
+
+Bugs fixed in this release
+     
+      * 767462 : gl: cocoa-videooverlay doesn't work
+      * 782379 : glimagesink: macOS crash when used with autovideosink
+      * 784887 : gsm: Possible Memory leak in gst_buffer_unmap
+      * 785119 : mxfdemux: Wrong PTS on some files
+      * 785941 : fix flushing seek in rtmpsrc
+      * 785957 : adaptivedemux: leaks pad probes, causing gradual increase in CPU
+      * 785987 : adaptivedemux: Deadlock on stopping pipeline
+      * 786036 : vtenc: assume 25 fps for unknown framerate
+      * 786201 : player: media-info duration field not updated upon duration-changed signal
+      * 786250 : openjpeg: Support libopenjp2 v2.2
+      * 787234 : opencv: allow compilation against 3.3.0
+      * 787309 : hlsdemux: fix compilation with openssl 1.1.0
+      * 787442 : kms: fix crash if bo allocation failed when copying to dumb buffer
+      * 787727 : player: cosmetic changes
+
+==== Download ====
+
+You can find source releases of gst-plugins-bad in the download
+directory: https://gstreamer.freedesktop.org/src/gst-plugins-bad/
+
+The git repository and details how to clone it can be found at
+http://cgit.freedesktop.org/gstreamer/gst-plugins-bad/
+
+==== Homepage ====
+
+The project's website is https://gstreamer.freedesktop.org/
+
+==== Support and Bugs ====
+
+We use GNOME's bugzilla for bug reports and feature requests:
+http://bugzilla.gnome.org/enter_bug.cgi?product=GStreamer
+
+Please submit patches via bugzilla as well.
+
+For help and support, please subscribe to and send questions to the
+gstreamer-devel mailing list (see below for details).
+
+There is also a #gstreamer IRC channel on the Freenode IRC network.
+
+==== Developers ====
+
+GStreamer is stored in Git, hosted at git.freedesktop.org, and can be cloned
+from there (see link above).
+
+Interested developers of the core library, plugins, and applications should
+subscribe to the gstreamer-devel list.
+
+        
+Contributors to this release
+    
+      * Clemens Lang
+      * Edward Hervey
+      * George Kiagiadakis
+      * Guillaume Desmottes
+      * Jan Alexander Steffens (heftig)
+      * Matthew Waters
+      * Nicola Murino
+      * Nicolas Dufresne
+      * Philippe Normand
+      * Philippe Renon
+      * Satya Prakash Gupta
+      * Sebastian Dröge
+      * Thibault Saunier
+      * Tim-Philipp Müller
+      * Tom Bailey
+      * davecraig@unbalancedaudio.com
+ 

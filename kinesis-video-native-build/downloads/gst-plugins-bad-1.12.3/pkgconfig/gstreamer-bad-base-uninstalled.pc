@@ -1,0 +1,14 @@
+prefix=
+exec_prefix=
+libdir=@baselibdir@
+includedir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs
+girdir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs/gst/base
+typelibdir=/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs/gst/base
+
+Name: GStreamer bad base classes, uninstalled
+Description: Bad base classes for GStreamer elements, Not Installed
+Version: 1.12.3
+Requires: gstreamer-1.0
+
+Libs: -L${libdir} -lgstbadbase-1.0
+Cflags: -I/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs -I/Users/alanng/work/cpp/kinesis-video-native-build/downloads/gst-plugins-bad-1.12.3/gst-libs
